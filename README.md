@@ -24,10 +24,10 @@ npm install @gradian/arcviewer
 
 ## Usage
 
-Create an instance of AlgorandUtil by passing an Algorand client (AlgodV2 instance) as a dependency during instantiation. Once initialized, you can utilize the various utilities it offers. Check out the example below:
+Create an instance of AlgorandNFTViewer by passing an Algorand client (AlgodV2 instance) as a dependency during instantiation. Once initialized, you can utilize the various utilities it offers. Check out the example below:
 
 ```javascript
-import AlgorandUtil from '@gradian/arcviewer';
+import AlgorandNFTViewer from '@gradian/arcviewer';
 // algoClient is an algosdk.AlgodV2 Algorand Client instance
 const algorandNFTViewer = new AlgorandNFTViewer(algoClient)
 
