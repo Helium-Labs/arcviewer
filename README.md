@@ -55,12 +55,20 @@ To build the project, run:
 npm run build
 ```
 
+## ARC3, ARC19, and ARC69 Algorand Request for Comment Standards
+
+ARC, short for Algorand Request for Comments, establishes standards outlining the characteristics of assets and operations on the Algorand blockchain. These standards provide developers with a uniform approach to develop on the Algorand blockchain. For a comprehensive understanding of each parameter provided to the ARC minter, kindly refer to the respective standards for each type of Non-Fungible Digital Asset:
+
+- [ARC3 Digital Assets](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0003.md)
+- [ARC19 Digital Assets](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0019.md)
+- [ARC69 Digital Assets](https://github.com/algorandfoundation/ARCs/blob/main/ARCs/arc-0069.md)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 
-This `README.md` provides a comprehensive overview of the `@gradian/util` package, showcasing its capabilities and features in an organized manner. The actual `README.md` might be extended with more examples, a detailed API reference, or a contribution guide.
+This `README.md` provides a comprehensive overview of the `@gradian/arcviewer` package, showcasing its capabilities and features in an organized manner. The actual `README.md` might be extended with more examples, a detailed API reference, or a contribution guide.
 
 ## Disclaimer
 
