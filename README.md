@@ -34,8 +34,7 @@ const algorandNFTViewer = new AlgorandNFTViewer(algoClient)
 const isMainnet = true
 const assetIndex = 123456678
 
-// files are an array of File for the asset, which can be rendered in the Frontend
-// nftAsset is an NFTAsset, containing all the NFTs metadata
+// 'files' is an array (File[]) that contains media representations of the asset, like images or music. 'nftAsset' (of type NFTAsset) holds all the related metadata.
 const {nftAsset, files} = algorandNFTViewer.getNFTAssetDataWithFiles(assetIndex, isMainnet)
 
 // Extract key-value pairs of all metadata fields for the given asset
