@@ -42,7 +42,7 @@ const {nftAsset, files} = algorandNFTViewer.getNFTAssetDataWithFiles(assetIndex,
 const metadataKVPairs = algorandNFTViewer.getMetadataFields(nftAsset)
 
 // Extract a particular metadata field for the given asset
-const description = algorandNFTViewer.getProperty('description')
+const description = algorandNFTViewer.getProperty(nftAsset, 'description')
 ```
 
 For more detailed usage, please refer to the documentation of individual utility functions and the provided examples.
