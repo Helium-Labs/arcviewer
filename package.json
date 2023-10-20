@@ -1,6 +1,6 @@
 {
   "name": "@gradian/arcviewer",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A utility for extracting data given an Algorand asset ID of an ARC3, ARC19, or ARC69 NFT asset for purposes like rendering an NFT in a frontend.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
